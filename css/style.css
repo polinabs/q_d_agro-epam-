@@ -1,0 +1,870 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+    color: black;
+    font-weight: 100;
+
+}
+
+
+
+.offer{
+    background-color: white;
+}
+
+
+.color-part{
+    background-color: #FBF9FA;
+    z-index: -200;
+    position: absolute;
+}
+
+.header__img-wheat{
+    width: 39.375vw;
+    height: 38.646vw;  
+}
+
+.header__img{
+    position: absolute;
+    z-index: -100;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+
+    padding-top: 1.354vw;
+    padding-right: 3.62vw;
+    padding-left: 23.734vw;
+
+    font-size: 1.458vw;
+    
+}
+
+.header__nav-link{
+    font-weight: 100;
+}
+
+.header__nav-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*main*/
+
+.main__text{
+    font-size: 2.656vw;
+    line-height: 3.4vw;
+
+    font-weight: 200;
+    
+}
+
+.gold-text{
+    color: #e2ba7b;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.main{
+    margin-left: 40.052vw;
+    margin-right: 2.135vw;
+    margin-top: 6.510vw;
+}
+
+.main__btn{
+    margin-top: 1.927vw;
+
+    width: 15.521vw;
+    height: 3.177vw;
+
+    font-size: 0.938vw;
+
+    border-left: solid #65aa44;
+    border-right: solid #65aa44;
+
+    border-top: none;
+    border-bottom: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/*Group of companies «Q.D. Agro»*/
+
+.group{
+    padding-top: 9.5vw;
+    padding-left: 4.896vw;
+    padding-right: 4.896vw;
+    
+}
+
+/*green border*/
+.grean__border{
+    box-sizing: border-box;
+    border-bottom: solid #65aa44;
+    
+    border-left: solid #65aa44;
+    border-left-width: 0.65vw;
+}
+
+/*h2 with green border*/
+.h2-title{
+   margin-left: 0.729vw;
+   margin-bottom: 0.417vw;
+
+   font-size: 2.083vw;
+   font-weight: 400;
+}
+
+.group__note,
+.offer__note-tx,
+.offer__note-text{
+    margin-top: 1.406vw;
+    font-size: 0.885vw;
+    
+}
+
+.group__note-text{
+    
+    font-weight: 100;
+}
+
+.group__container{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    padding-top: 1.563vw;
+    padding-bottom: 3.125vw;
+}
+
+.group__container-item {
+    display: flex;
+
+    align-items: flex-start;
+    flex-direction: column;
+    width: 26.563vw;
+}
+
+.group__container-text{
+    padding-top: 1.563vw;
+
+    font-size: 0.938vw;
+    font-weight: 100;
+}
+
+.group__container-title{
+    font-size: 1.823vw;
+    font-weight: bold;
+    color: #65aa44;
+}
+
+.offer{
+   
+
+    padding-top: 1.979vw;
+    padding-left: 4.896vw;
+    padding-right: 4.896vw;
+}
+
+.offer__container-items{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: 9.824vw;
+}
+
+.offer__container-item,
+.offer__container-item-last{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.offer__container-img-car{
+    width: 2.725vw;
+    height: 2.127vw;
+}
+
+.offer__container-img-cart{
+    width: 2.555vw;
+    height: 2.817vw;
+}
+
+.offer__container-img-planet,
+.offer__container-img-dollar{
+    width: 2.508vw;
+    height: 2.508vw;
+}
+
+.offer__container-img-pie{
+    width: 2.316vw;
+    height: 2.647vw;
+}
+
+.offer__container-img-car,
+.offer__container-img-cart,
+.offer__container-img-planet,
+.offer__container-img-dollar,
+.offer__container-img-pie{
+  margin-right: 1.873vw;
+  margin-bottom: 2.292vw;
+  margin-top: 1.615vw;
+
+}
+
+.offer__container-h{
+    font-size: 1.146vw;
+    font-weight: 600;
+} 
+
+/*price*/
+.price{
+    padding-left: 4.896vw;
+    padding-right: 4.896vw;
+    padding-top: 1.979vw;
+    padding-bottom: 3.177vw;
+}
+
+.benefits__note,
+.price__note{
+    margin-top: 1.406vw;
+    margin-bottom: 1.406vw;
+}
+
+/*table*/
+
+.table__price{
+    width: 90.208vw;
+    height: auto;
+
+    border: solid #e2ba7b;
+    border-spacing: 0;
+    border-width: thin;
+    text-align: center;
+    border-collapse: collapse;
+
+    font-size: 1.1vw;
+
+}
+
+.table__price-1column{
+    width: 8.750vw;
+    border-right: solid #e2ba7b;
+    border-width: medium;
+
+    font-weight: 400;    
+
+}
+
+.table__price-2column,
+.table__price-3column,
+.table__price-4column,
+.table__price-5column,
+.table__price-6column,
+.table__price-7column{
+    border-right: solid #e2ba7b;
+    border-width: medium;
+
+    padding-top: 0.781vw;
+    padding-bottom: 0.781vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.border_bottom,
+.thead__table{
+    border-bottom: solid #e2ba7b;
+    border-width: medium;  
+    
+}
+
+.thead__text-bold{
+    font-weight: 400;
+    border-right: solid #e2ba7b;
+    border-width: medium;
+
+    padding-top: 0.781vw;
+    padding-bottom: 0.781vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.thead__text-bold-last{
+    font-weight: 400;
+}
+
+/*benefits*/
+
+.benefits{
+    padding-left: 4.896vw;
+    padding-right: 4.896vw;
+    padding-top: 1.979vw;
+    padding-bottom: 3.177vw;
+
+    background-color: white;
+}
+
+.benefits__list{
+    padding-left: 2.500vw;
+}
+
+.benefits__list-item{
+    color: #e2ba7b;
+}
+.benefits__list-text{
+    color: black;
+    font-size: 0.938vw;
+}
+
+/*news*/
+.news{
+    padding-left: 4.896vw;
+    padding-right: 4.896vw;
+
+    padding-top: 1.979vw;
+    padding-bottom: 3.177vw;
+    
+}
+
+.news__card-first,
+.news__card-second,
+.news__card-third{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+    width: 28.646vw;
+    height: 10.417vw;
+    background-color: #FBF9FA;;
+    
+    box-shadow: 0 0 0.521vw 0.260vw #D3D3D3
+}
+
+.news__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+
+    margin-top: 1.927vw;
+}
+
+.news__card-pic{
+    width: 6.667vw;
+    height: 8.438vw;
+    margin-left: 0.95vw;
+    margin-right: 0.95vw;
+
+    display: flex;
+ 
+}
+
+.news__card-text{
+    font-size: 0.938vw;
+    margin-right: 0.95vw;
+}
+
+.news__card-title{
+    
+    font-weight: 400;
+    
+}
+
+.news__card-date{
+    
+    color: #808080;
+    font-style: italic;
+    font-weight: 300;
+
+    margin-bottom: 0.2vw;
+    margin-top: 0.2vw;
+}
+
+
+/*text*/
+
+.benefits__note-text,
+.price__note-text2,
+.price__note-text1{
+    font-size: 0.938vw;
+}
+
+.price__note-text2{
+    font-style: italic;
+}
+
+/*footer*/
+
+.footer__color{
+    background-color: #f5f5f5;
+}
+
+
+.footer__contacts,
+.contacts__img{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer__contacts-title{
+    margin-bottom: 2.448vw;
+
+    font-size: 1.146vw;
+    font-weight: 600;
+}
+
+.contacts__img-envelope,
+.contacts__img-fb,
+.contacts__img-ln{
+    width: 2.095vw;
+    height: auto;
+
+    margin-bottom: 1.927vw;
+}
+
+.footer__repres,
+.footer__office,
+.footer__switz{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.footer__repres{
+    width: 32.906vw;
+
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+
+    padding-top: 1.302vw;
+    padding-bottom: 1.823vw;
+    padding-right: 2.344vw;
+    padding-left: 2.344vw;
+}
+
+.footer-title{
+    font-size: 1.146vw;
+    font-weight: 600;
+
+    width: 9vw;
+}
+
+.footer-text{
+    font-size: 1.146vw; 
+
+    margin-left: 1.198vw;
+}
+
+@media (max-width: 991px) {
+    
+    .header__nav-link{
+        width: min-content;
+        font-size: 1.7vw;
+    }
+
+    .header__wrap{
+        display: flex;
+        text-align: center;
+    }
+
+    .header__img-wheat {
+        width: 61.375vw;
+        height: auto;
+    }
+
+    .header__nav {
+        padding-left: 27vw;
+       
+    }
+
+    .main {
+        margin-top: 10.51vw;
+        
+    }
+
+    .main__text {
+        font-size: 2.8vw;
+    }
+
+    .main__btn{
+        font-size: 1.2vw;
+        font-weight: 200;
+    }
+
+    .group{
+        padding-top: 23.5vw;
+    }
+
+    .h2-title{
+        font-size: 3.5vw;
+    }
+
+    .group__note, 
+    .offer__note-tx, 
+    .offer__note-text,
+    .group__container-text,
+    .benefits__note-text, 
+    .price__note-text2, 
+    .price__note-text1,
+    .table__price,
+    .benefits__list-text,
+    .news__card-title,
+    .news__card-date,
+    .news__card-text{
+        font-size: 1.7vw;
+    }
+
+    .group__container-title{
+        font-size: 2.5vw;
+    }
+
+    .offer__container-item{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 6vw;
+    }
+
+    .offer__container-items{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        height: 19vw;
+
+        margin-top: 1.406vw;
+    }
+
+    .offer__container-img-car,
+    .offer__container-img-cart,
+    .offer__container-img-planet, 
+    .offer__container-img-dollar,
+    .offer__container-img-pie{
+        width: 4vw;
+        height: auto;
+    }
+
+    .offer__container-h {
+        font-size: 1.8vw;
+        
+    }
+    
+    .table__price-2column, 
+    .table__price-3column, 
+    .table__price-4column, 
+    .table__price-5column, 
+    .table__price-6column, 
+    .table__price-7column,
+    .last-column{
+       padding: 0.781vw 0.5vw;
+       
+    }
+
+    .table__price-1column{
+        padding: 0.781vw 0.5vw;
+        width: 7.2vw;
+    }
+
+    .news__card {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 1.927vw;
+    }
+
+    .news__card-first, .news__card-second, .news__card-third {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 2vw;
+        height: 15vw;
+        
+    }
+
+    .news__card-date {
+        margin-bottom: 3vw;
+        
+    }
+
+    .news__card-pic {
+        width: 12.667vw;
+        height: 12.438vw;
+        margin-right: 3.95vw;
+    }
+
+    .news__card-text {
+        margin-right: 5vw;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-title{
+        font-size: 2vw;
+        width: 31vw;
+    }
+
+    .footer__contacts-title{
+        font-size: 2vw;
+        
+    }
+
+    .footer-text {
+        font-size: 2vw;
+        margin-left: 1vw;
+    }
+
+    .footer__repres,
+    .footer__office,
+    .footer__contacts,
+    .footer__switz{
+        width: 100%;
+        margin-bottom: 1.5vw;
+    }
+
+    .contacts__img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 10vw;
+    }
+
+    .contacts__img-envelope, 
+    .contacts__img-fb, 
+    .contacts__img-ln {
+        width: 3vw;
+    }
+    
+    .footer {
+        
+        padding-top: 2vw;
+        
+        padding-right: 3vw;
+        padding-left: 3vw;
+    }
+
+    .news__card-first,
+    .news__card-second,
+    .news__card-third{
+    box-shadow: 0 0 1.009vw 0.505vw #D3D3D3
+    
+    }
+
+   
+
+}
+
+
+@media (max-width: 767px){
+
+    .group__note, 
+    .offer__note-tx, 
+    .offer__note-text,
+    .group__container-text,
+    .benefits__note-text, 
+    .price__note-text2, 
+    .price__note-text1,
+    .table__price,
+    .benefits__list-text,
+    .news__card-title,
+    .news__card-date,
+    .news__card-text{
+        font-size: 2.5vw;
+    }
+
+    .price{
+        display: none;
+    }
+
+    .header__nav{
+        padding: 1.354vw 3.62vw;
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .header__nav-link {
+        width: max-content;
+        font-size: 3vw;
+        
+        margin-bottom: 2vw;
+        width: 27vw;
+        font-weight: 300;
+    }
+
+    .main{
+        margin-top: 12vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        text-align: center;
+    }
+
+    .main__text{
+        font-size: 3.5vw;
+        line-height: 4.4vw;
+    }
+
+    .main__btn{
+        font-size: 2vw;
+        font-weight: 300;
+
+        margin-top: 5.927vw;
+        width: 18.521vw;
+        height: 5.177vw;
+    }
+
+    .group {
+        padding-top: 10.5vw;
+    }
+
+    .group__container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .group__container-item {
+
+        width: 100%;
+        margin-bottom: 5vw;
+    }
+
+    .group__container-title {
+        font-size: 3.5vw;
+    }
+
+    .group__container {
+
+        padding-top: 4vw;
+        padding-bottom: 0;
+    }
+
+    .group__note, 
+    .offer__note-tx, 
+    .offer__note-text{
+        margin-top: 4vw;
+        
+    }
+
+    .offer__container-items {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        height: 100%;
+        
+    }
+
+    .offer__container-item {
+
+        height: 9vw;
+    }
+
+    .offer__container-img-car, 
+    .offer__container-img-cart, 
+    .offer__container-img-planet, 
+    .offer__container-img-dollar, 
+    .offer__container-img-pie {
+        margin-right: 6vw;
+        width: 6.5vw;
+        height: auto;
+
+    }
+
+    .offer__container-h {
+        font-size: 2.5vw;
+    }
+
+    .offer {
+
+        padding-bottom: 2vw;
+    }
+
+    .benefits__note-text{
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+
+    .news__card-first, .news__card-second, .news__card-third {
+        height: 21vw;
+        margin-bottom: 3vw;
+    }
+
+    .news__card-pic {
+        width: 18.667vw;
+        height: 18.438vw;
+        margin-right: 4vw;
+    }
+
+    .footer-title {
+        font-size: 2.5vw;
+        width: 25vw;
+    }
+
+    .footer-text {
+        font-size: 2.5vw;
+        margin-left: 2.5vw;
+    }
+
+    .contacts__img-envelope, 
+    .contacts__img-fb, 
+    .contacts__img-ln {
+        width: 5vw;
+    }
+
+    .contacts__img {
+
+        width: 18vw;
+    }
+
+    .footer__contacts-title {
+        font-size: 2.5vw;
+    }
+
+    .news {
+
+        padding-bottom: 0;
+    }
+
+    .h2-title {
+        font-size: 3.8vw;
+    }
+
+    
+} 
+
+
+
+
+
+
+
+
